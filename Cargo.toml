@@ -1,0 +1,11 @@
+[package]
+name = "password-check"
+version = "0.1.0"
+authors = ["Tyler Crouse <crouseta@gmail.com>"]
+keywords = ["password", "pwned"]
+edition = "2018"
+
+[dependencies]
+reqwest = "0.9.18"
+rust-crypto = "0.2.36"
+regex = "1.1.9"
